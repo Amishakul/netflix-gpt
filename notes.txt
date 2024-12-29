@@ -1,1 +1,18 @@
 just like parcel, create-react-app uses web pack as a bundler.
+
+For big forms use Formik library
+
+1. useref -> suppose if you want to find what is there inside the input box, so i need a reference to that input box and that reference is created by react using useref hook.
+
+2. const email = useRef(null);
+const password = useRef(null); -> these are references, it will create a reference.
+And now refer this above reference i.e. const email = useRef(null);
+const password = useRef(null); to the input boxes of email and password.
+
+3. ref={email} and ref={password} -> is the reference to this input boxes
+
+4. email.current.value -> gives value of input box email.
+
+5. In easy way, useRef email and password will let me know what is there inside the textbox of email and password.
+
+6. Instead of using useref we can also use, usestate hook
