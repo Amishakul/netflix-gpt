@@ -16,3 +16,11 @@ const password = useRef(null); to the input boxes of email and password.
 5. In easy way, useRef email and password will let me know what is there inside the textbox of email and password.
 
 6. Instead of using useref we can also use, usestate hook
+
+7. email.current -> refering to input box
+email.current.value -> value present in the input box
+
+8. useRef is used to reference a field in the code. (textbox)
+
+Build folder is used to deploy the project in firebase
+
