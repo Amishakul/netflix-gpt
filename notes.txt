@@ -22,5 +22,19 @@ email.current.value -> value present in the input box
 
 8. useRef is used to reference a field in the code. (textbox)
 
+
+
 Build folder is used to deploy the project in firebase
 
+if message is there i.e. some error is there in the credentials, in this case return null i.e. if(message) return; 
+
+OR
+
+if message is not there i.e. No errors are there in the credentials, in this case perform sign in/ sign up authentication
+
+if(!message) {
+    sign in/sign up authentication perform 
+}
+
+
+OnAuthStateChange Api -> is called, whenever the user sign in, sign up, sign out i.e. whenever there is authentication state change. 
