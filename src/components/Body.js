@@ -34,7 +34,7 @@ const Body = () => {
           // https://firebase.google.com/docs/reference/js/auth.user
 
           // destructuring the object, hence curry brackets
-          const { uid, email, displayName, photoURL } = user; // take this many things from the user object from firebase
+          const { uid, email, displayName, photoURL } = user; // take this many things from the user object
 
           //dispatch an action
           dispatch(addUser({uid: uid, email: email, displayName: displayName, photoURL: photoURL}));
