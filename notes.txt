@@ -38,3 +38,7 @@ if(!message) {
 
 
 OnAuthStateChange Api -> is called, whenever the user sign in, sign up, sign out i.e. whenever there is authentication state change. 
+
+API is called 2 times, because of react strict mode, the app is wrapped inside strict mode in react. The Api is called twice only in development mode not in production mode.
+
+React does extra rendering of your components, to check for some inconsistencies between your api calls. and it will throw an error if there is inconsistencies in your rendering cycles.
