@@ -25,10 +25,16 @@
 - Create MovieSlice
 - Update Store with movies Data
 - Planning for MainContainer and secondary container
-- Fetch Data for Trailer Video
+- Fetch Data for Trailer Video (key and movieId is different)
 - Update Store with Trailer Video data
 - Embedded the Youtube video and make it autoplay and mute
 - Tailwind Classes to make Main Container look awesome
+- Build Secondary Component
+- Build Movie List
+- Build Movie card
+- Found out TMDB Image CDN URL
+- MAKE THE BROWSE PAGE AMAZING WITH TAILWIND CSS
+- usePopularMoives Custom Hook
 
 
 
