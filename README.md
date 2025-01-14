@@ -35,6 +35,9 @@
 - Found out TMDB Image CDN URL
 - MAKE THE BROWSE PAGE AMAZING WITH TAILWIND CSS
 - usePopularMoives Custom Hook
+- GPT Search page
+- GPT Search Bar
+- (BOUNS) Multi-language Feature in our app
 
 
 
@@ -53,6 +56,13 @@
 - NetflixGPT
     - Search Bar
     - Movie Suggestions
+
+# Main Container
+    - Video Background
+    - Video Title
+# Secondary Container
+    - MovieList * N (there can be many rows)
+    - cards * N
 
 # Steps for Deployment using firebase
 
