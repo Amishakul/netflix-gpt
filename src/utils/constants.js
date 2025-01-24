@@ -6,8 +6,8 @@ export const API_OPTIONS = {
     method: 'GET',
     headers: {
       accept: 'application/json',
-      Authorization: 'Bearer eyJhbGciOiJIUzI1NiJ9.eyJhdWQiOiI5YTQ0ZTgxMGI2MzQ1ZWFlZjJhNWIzYzg5MTBmYmRmNCIsIm5iZiI6MTczNjE2MTE3Mi41MjE5OTk4LCJzdWIiOiI2NzdiYjc5NDFhMmRmNTlhZDM3NTFmM2IiLCJzY29wZXMiOlsiYXBpX3JlYWQiXSwidmVyc2lvbiI6MX0.WeD8vzfyJDOWxhcRO4XaUnjyrst1xYO2ePUzcRkQ8NA'
-    }
+      Authorization: 'Bearer ' + process.env.REACT_APP_TMDB_KEY, 
+    },
   };
 
 
@@ -16,3 +16,6 @@ export const API_OPTIONS = {
   export const BG_URL = "https://assets.nflxext.com/ffe/siteui/vlv3/2f5a878d-bbce-451b-836a-398227a34fbf/web/IN-en-20241230-TRIFECTA-perspective_5ab944a5-1a71-4f6d-b341-8699d0491edd_large.jpg";
 
   export const SUPPORTED_LANGUAGES = [{identifier: "en", name: "English"}, {identifier: "hindi", name: "Hindi"}, {identifier: "spanish", name: "Spanish"}];
+
+
+  export const GEMINI_API = process.env.REACT_APP_GEMINI_API;

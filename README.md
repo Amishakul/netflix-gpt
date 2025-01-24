@@ -38,6 +38,7 @@
 - GPT Search page
 - GPT Search Bar
 - (BOUNS) Multi-language Feature in our app
+- npm install openai
 
 
 

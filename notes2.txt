@@ -1,3 +1,5 @@
 In JSX always use Camel Casing convention
 
 pt -> padding top
+
+after setting the sensitive api keys into .env file restart the app again. i.e. npm start
