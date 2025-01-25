@@ -3,3 +3,10 @@ In JSX always use Camel Casing convention
 pt -> padding top
 
 after setting the sensitive api keys into .env file restart the app again. i.e. npm start
+
+There is no need to make api calls again and again once the data is store in the redux store. So use memoization concept.
+
+Responsive tailwind css:
+
+default value is for mobile devices, sm -> tablet, md -> desktop devices
+

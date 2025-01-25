@@ -38,7 +38,15 @@
 - GPT Search page
 - GPT Search Bar
 - (BOUNS) Multi-language Feature in our app
-- npm install openai
+- (npm install openai) -> incase of using chatgpt api
+- I have integrated Google Gemini
+- Feteched gemini movies suggestions from TMDB
+- Created gptSlice added data
+- Reused Movie List component to make movie suggestion container
+- Memoization
+- Added .env file
+- Adding .env file to gitignore
+- Made our Site Responsive
 
 
 
