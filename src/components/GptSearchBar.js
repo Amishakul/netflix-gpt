@@ -96,7 +96,7 @@ const GptSearchBar = () => {
 
         <input ref={searchText}  type='text' className='p-4 m-4 col-span-9' placeholder={lang[langKey].gptSearchPlaceholder}/>
 
-        <button className='col-span-3 m-4 py-2 px-4 bg-red-700 text-white rounded-lg' onClick={handleGptSearchClick}>  {lang[langKey].search}</button> 
+        <button className='col-span-3 m-4 py-2 md:px-4 px-1 bg-red-700 text-white rounded-lg' onClick={handleGptSearchClick}>  {lang[langKey].search}</button> 
       </form>
     </div>
   )
